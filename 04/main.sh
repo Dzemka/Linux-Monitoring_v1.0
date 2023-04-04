@@ -57,7 +57,7 @@ then
 fi
 echo
 
-for ((i = 0; i < 4; i ++))
-do
-  echo -e "Column 1 background = ${colorCfg[$i]} \e[${color[$((${colorCfg[$i]} - 1))]}m(${colorName[$((${colorCfg[$i]} - 1))]})\e[0m"
-done
+echo -e "Column 1 background = ${colorCfg[$i]} \e[${color[$((${colorCfg[0]} - 1))]}m(${colorName[$((${colorCfg[0]} - 1))]})\e[0m"
+echo -e "Column 1 font color = ${colorCfg[$i]} \e[${color[$((${colorCfg[1]} - 1))]}m(${colorName[$((${colorCfg[1]} - 1))]})\e[0m"
+echo -e "Column 2 background = ${colorCfg[$i]} \e[${color[$((${colorCfg[2]} - 1))]}m(${colorName[$((${colorCfg[2]} - 1))]})\e[0m"
+echo -e "Column 2 font color = ${colorCfg[$i]} \e[${color[$((${colorCfg[3]} - 1))]}m(${colorName[$((${colorCfg[3]} - 1))]})\e[0m"
