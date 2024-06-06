@@ -23,8 +23,6 @@ The russian version of the task can be found in the repository.
 
 ## Chapter I
 
-![linux_monitoring_v1](images/img1.png)
-
 Planet Earth, USA, California, nowadays.
 
 You have been working late, as usual, to avoid driving home through rush hour traffic.
